@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form tính toán</title>
+  <link rel="stylesheet" href="./Bai3.css">
+  <script src="./Bai3.js"></script>
+</head>
+<body>
+  <div class="content">
+    <form>
+      <h2>MÁY TINH CASIO</h2>
+      <div class="enter">
+        <h3>Nhập a: </h3>
+        <input type="text" class="value" name="a" id="a">
+      </div>
+      <div class="enter">
+        <h3>Nhâp b: </h3>
+        <input type="text" class="value" name="b" id="b">
+      </div>
+      <div class="enter">
+        <h3>Kết quả: </h3>
+        <input type="text" class="value" name="kq" id="kq">
+      </div>
+      <div class="nutbam">
+        <button class="btn" type="button" onclick="Sum()"> + </button>
+        <button class="btn" type="button" onclick="Sub()"> - </button>
+        <button class="btn" type="button" onclick="Mul()"> * </button>
+        <button class="btn" type="button" onclick="Div()"> / </button>
+        <button class="btn" type="button" onclick="reset()"> RESET </button>
+      </div>
+      <p id="log" ></p>
+    </form>
+  </div>
+</body>
+</html>

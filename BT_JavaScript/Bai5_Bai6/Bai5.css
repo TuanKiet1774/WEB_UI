@@ -1,0 +1,122 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  height: 100vh;
+  background-color: black;
+}
+
+.content{
+  width: 100%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content .circle {
+  position: relative;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 5px solid transparent;
+  border-top: 5px solid #068cf2;
+  animation: animate 4s linear infinite;
+}
+
+@keyframes animate{
+  0%{
+    transform: rotate(0deg);
+  }
+  100%{
+    transform: rotate(360deg);
+  }
+}
+
+.content .circle::before{
+  content: "";
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  top: 12px;
+  right: 12px;
+  border-radius: 50%;
+  background-color: #068cf2;
+  box-shadow: 0px 0px 0px 5px #068cf233, 
+              0px 0px 0px 10px #068cf222, 
+              0px 0px 0px 20px #068cf211, 
+              0px 0px 20px #068cf2,
+              0px 0px 50px #068cf2 ;
+}
+
+.content .circle:nth-child(2){
+  animation: animate2 4s linear infinite;
+  animation-delay: -1s;
+  border-top: 5px solid transparent;
+  border-left: 5px solid #f20606;
+}
+
+@keyframes animate2{
+  0%{
+    transform: rotate(360deg);
+  }
+  100%{
+    transform: rotate(0deg);
+  }
+}
+
+.content .circle:nth-child(2)::before{
+  content: "";
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  top: initial;
+  bottom: 12px;
+  left: 12px;
+  border-radius: 50%;
+  background-color: #f20606;
+  box-shadow: 0px 0px 0px 5px #f2060633, 
+              0px 0px 0px 10px #f2060622, 
+              0px 0px 0px 20px #f2060611, 
+              0px 0px 20px #f20606,
+              0px 0px 50px #f20606;
+}
+
+.content .circle:nth-child(3){
+  animation: animate2 4s linear infinite;
+  animation-delay: -3s;
+  position: absolute;
+  top: -65px;
+  border-top: 5px solid transparent;
+  border-left: 5px solid #def206;
+}
+
+.content .circle:nth-child(3)::before{
+  content: "";
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  top: initial;
+  bottom: 12px;
+  left: 12px;
+  border-radius: 50%;
+  background-color: #def206;
+  box-shadow: 0px 0px 0px 5px #def20633, 
+              0px 0px 0px 10px #def20622, 
+              0px 0px 0px 20px #def20611, 
+              0px 0px 20px #def206,
+              0px 0px 50px #def206;
+}
+
+.content p{
+  position: absolute;
+  top: 180px;
+  color: white;
+  font-size: 20px;
+}

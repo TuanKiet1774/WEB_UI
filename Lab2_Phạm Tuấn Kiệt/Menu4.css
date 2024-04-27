@@ -1,0 +1,113 @@
+*{
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+a{
+  text-decoration: none;
+}
+
+li{
+  list-style: none;
+}
+
+.head{
+  width: 1500px;
+  padding: 10px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.item1{
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 10px solid rgb(2, 142, 2);
+}
+
+.logo{
+  margin: 5px;
+}
+
+.otimkiem{
+  position: relative;
+  width: 300px;
+  height: 30px;
+  border-radius: 20px;
+}
+
+.kinhlup{
+  position: absolute;
+  transform: rotateY(180deg);
+  right: 70px;
+  top: 20px
+}
+.nut{
+  border: none;
+  background-color: white;
+}
+
+.timkiem{
+  margin: 5px;
+  padding-left: 20px;
+}
+
+.dongcanbo ul{
+  display: flex;
+}
+
+.dongcanbo li{
+  padding-right: 10px;
+}
+
+.dongcanbo ul li a{
+  color: black;
+}
+/* Thanh menu */
+
+.thanhmenu{
+  height: 30px;
+  display: flex;
+  justify-content: space-around;
+  padding-left: 50px;
+  padding-right: 400px;
+  background-color: black;
+  color: white;
+}
+
+.thanhmenu li a{
+  color: white;
+}
+
+.dacap li a{
+  color: black;
+  padding: 15px;
+}
+.dacap li{
+  padding: 2px;
+  border-bottom: 1px solid black;
+}
+
+.thanhmenu li{
+  position: relative;
+}
+
+/* Menu da cap */
+.thanhmenu li ul{
+  box-shadow: 1px 1px 10px black;
+  width: 180px;
+  height: fit-content;
+  background-color: white;
+  position: absolute;
+  top: 100%;
+  left: 0px;
+  display: none;
+}
+
+.thanhmenu li:hover ul{
+  display: block;
+}
+
+.Giangvien{
+  border-left: 2px solid blue;
+  padding-left: 10px;
+}

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bài 1 - Phạm Tuấn Kiệt</title>
+  <link rel="stylesheet" href="./Bai1.css">
+</head>
+<body>
+  <div class="ND">
+    <div id="NoiDung"></div>
+  </div>
+  <div class="nut">
+    <input type="button" id="Nut1" value="Text" onclick = "SetText()">
+    <input type="button" id="Nut2" value="Color" onclick="SetColor()">
+  </div>
+  <script type="text/javascript">
+    var div = document.getElementById("NoiDung");
+    function SetText()
+    {
+      div.innerHTML = "Phạm Tuấn Kiệt";
+    }
+
+    function SetColor()
+    {
+      div.style.backgroundColor = "yellow";
+      div.style.fontSize = "50px";
+      div.style.color = "red";
+      div.style.width = "500px";
+      div.style.height = "200px"; 
+      div.style.display = "flex";
+      div.style.justifyContent = "center";
+      div.style.alignItems = "center";
+    }
+  </script>
+</body>
+</html>

@@ -1,0 +1,77 @@
+*{
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+html{
+  color: white;
+}
+a{
+  text-decoration:  none;
+  color: #fff;
+}
+.container{
+  background-image: url(./anh_lab2/background-menu-1.png);
+  height: 600px;
+  background-size: 100% 100%;
+}
+
+.header{
+  width: 80%;
+  margin: 0 auto;
+  height: 60px;
+  display: flex;
+  /* Nằm ra giữa theo chiều ngang */
+  justify-content: space-between; 
+  align-items: center;
+}
+.menu li{
+  list-style: none;
+  padding: 0px 10px;
+  display: inline-block;
+  position: relative;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  font-weight: 500;
+}
+.img logo{
+  margin: 5px;
+}
+
+.logo p{
+  padding-left: 5px;
+}
+
+.btn{
+  background-color: transparent;
+  border:  none;
+  color: #fff;
+}
+.btn-active
+{
+  margin-left: 20px;
+  background-color: #FFBC51;
+  border-radius: 15px;
+  padding: 7px 25px;
+}
+
+.menu li ul{
+  width: 150px;
+  background-color: bisque;
+  height: fit-content;
+  position: absolute;
+  top:40px;
+  left: 10px;
+  display: none;
+}
+.menu li:hover ul{
+  display: block;
+}
+.menu li ul li{
+  width: 100%;
+  padding: 10px;
+  border-bottom: 1px solid black;
+}

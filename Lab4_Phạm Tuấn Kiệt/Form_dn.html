@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form Đăng Nhập</title>
+  <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.2.0/css/all.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./Form_dn.css">
+  <script src="./Form.js"></script>
+</head>
+<body>
+  <div class="content">
+    <div class="form_dn">
+      <div class="welcome">Welcome</div>
+      <div class="chu">We are glad to see you back with us</div>
+      <form action="">
+        <div class="username_btn">
+          <img src="./Anh/Username.png" alt="" class="anh_user">
+          <input type="text" id="user" placeholder="Username" onkeyup="checkuser()">
+        </div>
+        <div class="password_btn">
+          <img src="./Anh/pass.png" alt="" class="anh_pass">
+          <input type="password" id="pass" placeholder="Password" onkeyup="checkpass()">
+          <i class="eye fa-regular fa-eye-slash" id="eye-on" onclick="show_pass()"></i>
+        </div>
+        <p id="message"></p>
+        <div class="btn">
+          <button type="button" id="signin"><a href="#" onclick="checkdn()">Đăng Nhập</a></button>
+          <button type="button" id="register"><a href="./Form_dk.html">Đăng Ký</a></button>
+        </div>
+      </form>
+      <div class="others">
+        <div class="line"></div>
+        <p><b>Login</b> with Others</p>
+        <div class="line"></div>
+      </div>
+      <div class="login">
+        <div class="anh_login">
+          <div><img src="./Anh/google 1.png" alt="" ></div>
+          <a href="#">Login with <b>google</b></a>
+        </div>
+        <div class="anh_login">
+          <div><img src="./Anh/facebook 1.png" alt="" ></div>
+          <a href="#">Login with <b>facebook</b></a>
+        </div>
+      </div>
+    </div>
+    
+    <div class="anh">
+      <img src="./Anh/Rectangle 4.png" alt="">
+    </div>
+  </div>
+</body>
+</html>

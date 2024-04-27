@@ -1,0 +1,190 @@
+*{
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+center{
+  padding-block: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+li{
+  list-style: none; padding-right: 50px;
+}
+
+.fiorello{
+  padding-block: 30px;
+  width: 300px;
+}
+
+.header{
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 20px;
+}
+
+.menu2{
+  padding-top: 5px;
+  display: flex;
+}
+
+.menu2 li{
+  padding-top: 30px;
+}
+
+.header .menu2 li a:hover {
+  text-decoration: underline;
+} 
+
+.kinh{
+  padding-top: 5px;
+  margin-top: 30px;
+  height: 30px;
+}
+
+.item2{
+  display: flex;
+  padding-top: 30px;
+}
+
+.checkout_list{
+  padding-top: 5px;
+}
+
+.checkout_list{
+  width: 90%;
+  text-align: left;
+  padding-block: 30px;
+  font-size: 20px;
+}
+
+.checkout_list h1{
+  padding-bottom: 10px;
+  font-size: 40px!important;
+}
+
+.bill{
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.billing-details{
+  padding-bottom: 20px;
+  width: 90%;
+  text-align: left;
+}
+
+.bill-name{
+  width: 100%;
+  display: flex;
+}
+
+.bill-name form{
+  padding-right: 50px;
+}
+
+.bill-name p{
+  text-align: left;
+  font-size: 15px;
+}
+
+.bill-name input{
+  width: 250px;
+  height: 25px;
+}
+
+.bill-address{
+  width: 100%;
+  text-align: left;
+  font-size: 15px;
+}
+
+.bill-address p{
+  padding-top: 10px;
+}
+
+.bill-address input{
+  width: 550px;
+  height: 25px;
+}
+
+.bill-way{
+  padding-top: 50px;
+  text-align: left;
+}
+
+.bill-way div{
+  padding-block: 15px;
+  border-bottom: 1px solid black;
+}
+
+.bill-way p{
+  padding-top: 15px;
+}
+
+.bill-way div img{
+  padding-left: 10px;
+}
+
+.place{ 
+  padding-top: 40px;
+  width: 90%;
+  text-align: left;
+}
+
+.nut-place button{
+  background-color: red;
+  color: white;
+  font-size: 25px;
+  width: 250px;
+  padding: 15px;
+}
+
+.product{
+  width: 90%;
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr); /*Thiet lap tren 1 dong*/
+  column-gap: 40px;
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.product img{
+  width: 100%;
+  height: 350px;
+}
+
+.featured{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: left;
+  font-size: 20px;
+  width: 90%;
+  padding-top: 50px;
+}
+
+.footer{
+  display: flex;
+  text-align: left;
+  justify-content: space-around;
+  padding-block: 50px;
+  background-color: rgb(202, 200, 200);
+  width: 90%;
+  border-radius: 15px;
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}
+
+.footer h3{
+  margin-bottom: 20px;
+}
+
