@@ -1,0 +1,178 @@
+*{
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  background-color: black;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.content{ 
+  background: url('./Anh/Vector.png') no-repeat left bottom;
+  background-position: 0px 10%;
+  background-size: 5%;
+  padding: 1%;
+  border-radius: 30px;
+  width: 70%;
+  height: 80%;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.form_dn{
+  text-align: center;
+  align-items: center;
+  width: 50%;
+}
+
+.welcome{
+  font-size: 90px;
+  font-family: "Fjalla One", sans-serif !important;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.chu{
+  font-size: 14px;
+  padding-bottom: 20px;
+}
+
+.anh{
+  width: 55%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.anh img{
+  padding: 20px;
+  width: 100%;
+}
+
+input[type="text"], input[type="password"]{
+  width: 60%;
+  padding-block: 10px;
+  padding-left: 30px;
+  font-size: 15px;
+  color: black;
+  border: none;
+  background-color: rgb(235, 235, 235);
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.username_btn{
+  position: relative;
+}
+
+.password_btn{
+  position: relative;
+}
+
+.anh_user{
+  width: 20px;
+  position: absolute;
+  top: 14%;
+  left: 21%;
+}
+
+.anh_pass{
+  width: 20px;
+  position: absolute;
+  top: 14%;
+  left: 21%; 
+}
+
+.btn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-inline: 30%;
+}
+
+button{
+  width: 100px;
+  font-size: 15px;
+  color: white;
+  border: none;
+  background-color: black;
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 5px;
+  margin-left: 10px;
+}
+
+.eye{
+  position: absolute;
+  top: 20%;
+  right: 22%;
+}
+
+.line{
+  border-top: 1px solid rgb(241, 236, 236);
+  width: 20%;
+}
+
+.others{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.others p{
+  padding-top: 15px;
+  padding-inline: 10px;
+}
+
+.form_dn p{
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+
+.login{
+  margin: auto;
+  width: 60%;
+}
+
+.anh_login{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  padding: 5px;
+  margin-top: 10px;
+  border-radius: 15px;
+}
+
+.anh_login img{
+  width: 20px;
+}
+
+.anh_login a{
+  font-size: 12px;
+  padding-inline: 5px;
+  padding-bottom: 5px;
+}
+
+#log{
+  padding-top: 10px;
+  color: red;
+  font-size: 15px;
+  font-style: italic;
+  text-align: center;
+}

@@ -1,0 +1,27 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.nut{
+  text-align: center;
+  padding-block: 10px;
+}
+
+.nut input{
+  align-items: center;
+  margin-right: 10px;
+  padding: 5px;
+  font-size: 20px;
+}
+.ND{
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 504px;
+  height: 204px;
+  border: 2px solid black;
+  margin-block: 10px;
+}
