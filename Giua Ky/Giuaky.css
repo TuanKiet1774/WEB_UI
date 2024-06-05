@@ -1,0 +1,302 @@
+*{
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+body{
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+li{
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+}
+
+.header{
+  background-image: url(./De04/imgs/banner.png);
+  background-size: 100% 100%;
+  width: 100%;
+  height: 800px;
+  color: white;
+}
+
+.header-menu{
+  padding-top: 30px;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+}
+
+.header-menu ul{
+  color: white;
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+}
+
+.header-menu ul li{
+  padding-inline: 20px;
+}
+
+.header-menu ul li a{
+  color: white;
+}
+
+.bag-back{
+  position: relative;
+  padding: 10px;
+}
+
+.bag img{
+  width: 30px;
+}
+
+.bag div{
+  position: absolute;
+  background-color: orange;
+  width: 20px;
+  height: 15px;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 10px;
+  top: 0;
+  right: 9%;
+}
+
+.header p{
+  padding-inline: 25px;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+  font-size: 20px;
+}
+
+.header h1{
+  padding-top: 30px;
+  text-align: center;
+  font-size: 60px;
+}
+
+.header form{
+  padding-top: 30px;
+  text-align: center;
+  position: relative;
+}
+
+.header input{
+  width: 19%;
+  height: 40px;
+  opacity: 0.3;
+  border: 1px solid white;
+  border-radius: 50px;
+}
+
+.header form i{
+  position: absolute;
+  background-color: orange;
+  text-align: center;
+  width: 30px;
+  height: 30px;
+  padding-block: 7px;
+  border-radius: 50%;
+  top: 50%;
+  right: 41%;
+}
+
+.Search-Furniture p{
+  position: absolute;
+  top: 51%;
+  left: 40%;
+  font-size: 15px;
+}
+
+.EXPERIENCES{
+  margin: auto;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  padding-block: 70px;
+}
+
+.chu h3{
+  font-size: 15px;
+  letter-spacing: 5px;
+  color: orange;
+  padding-block: 20px;
+}
+
+.chu h1{
+  font-size: 30px;
+  padding-bottom: 20px;
+}
+
+.chu p{
+  font-size: 15px;
+  padding-bottom: 20px;
+}
+
+.More-Info{
+  color: orange;
+  font-size: 15px;
+}
+
+.TESTIMONIALS{
+  text-align: center;
+}
+
+.TESTIMONIALS b{
+  color: orange;
+  letter-spacing: 3px;
+}
+
+.TESTIMONIALS h1{
+  padding-top: 15px;
+  padding-bottom: 50px;
+  font-size: 30px;
+}
+
+.person{
+  position: relative;
+  padding-bottom: 70px;
+}
+
+.client{
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+}
+
+.client-nen{
+  position: relative;
+}
+
+.client1-info{
+  width: 320px;
+  position: absolute;
+  left: 7%;
+  top: 46%;
+}
+
+.infomation{
+  position: absolute;
+  text-align: center;
+  left: 14%;
+  top: 56%;
+  padding-top: 5px;
+}
+
+.info1{
+  font-size: 11px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  padding-block: 5px;
+} 
+
+.info2{
+  padding-block: 10px;
+  font-size: 15px;
+}
+
+.star{
+  color: orange !important;;
+}
+
+.cach{
+  padding-top: 20px ;
+}
+
+.right{
+  background-color: white;
+  font-size: 25px;
+  padding-top: 7px;
+  text-align: center;
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  box-shadow: 1px 0px 10px;
+  border-radius: 50%;
+  top: 40%;
+  right: 8%;
+}
+
+.left{
+  background-color: white;
+  font-size: 25px;
+  padding-top: 7px;
+  text-align: center;
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  box-shadow: 1px 0px 10px;
+  border-radius: 50%;
+  top: 40%;
+  left: 8%;
+}
+
+.footer{
+  padding-top: 70px;
+  background-color: rgb(238, 237, 237);
+}
+
+.footer1{
+  display: flex;
+  padding-left: 15%;
+}
+
+.footer1_1 h1{
+  padding-bottom: 20px;
+}
+
+.footer1_2{
+  display: flex;
+  padding-left: 10%;
+}
+
+.footer1_2 ul{
+  padding-inline: 70px;
+}
+
+.footer1_2 ul li{
+  padding-block: 5px;
+}
+
+.footer1_2 ul li a {
+  color: black;
+}
+
+.media{
+  display: flex;
+}
+.media i{
+  padding-right: 10px;
+}
+
+.line1{
+  color:  orange;
+}
+
+.footer2{
+  padding-top: 100px;
+  padding-bottom: 70px;
+  padding-left: 15%;
+  display: flex;
+  justify-content: space-between;
+  color: grey;
+}
+
+.sinh_vien{
+  display: flex;
+  padding-right: 10%;
+}
+
+.sinh_vien p{
+  padding-right: 50px;
+}
