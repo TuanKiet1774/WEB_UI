@@ -1,0 +1,120 @@
+*{
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+.head{
+  width: 100%;
+  padding: 10px;
+}
+
+.menu{
+  background-color: red;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  padding-inline: 300px ;
+}
+
+.menu li{
+  padding-top: 5px;
+  list-style: none;
+}
+
+.menu li a{
+  font-size: 30px ;
+  text-decoration: none;
+  color: white;
+}
+/* Nôi dụng */
+
+.Noidung{
+  display: flex;
+}
+
+.bentrai{
+width: 3000px;
+background-color: antiquewhite;
+padding: 10px;
+}
+
+h2{
+  font-size: 50px;
+  color: rgb(255, 153, 0);
+}
+
+.tick li{
+  padding-top: 10px;
+  display: flex;
+  border-bottom: 1px dashed;
+}
+
+.tick li img{
+  margin-top: -5px;
+  padding: 5px;
+  width: 30px;
+}
+
+.anh1{
+
+  width: 200px;
+  height: 100px;
+}
+
+.anh2{
+  padding: 10px;
+  width: 200px;
+}
+
+.phai_duoi{
+  padding: 10px;
+  float: left;
+}
+
+.fa-solid{
+  width: 20px;
+  height: 20px;
+  color: orange;
+  margin: 3px;
+}
+
+.readmore{
+  color: orange;
+  display: flex;
+  justify-content: flex-end;
+}
+
+/* Bên phải */
+
+.benphai{
+  padding: 10px;
+}
+
+.para{
+  display: flex;
+}
+
+.search{
+  display: flex;
+}
+
+.fa-light{
+  font-size: 40px;
+  transform: rotateY(180deg);
+  padding: 5px;
+}
+
+.otimkiem{
+  
+  margin-top: 25px;
+  width: 300px;
+  height: 20px;
+}
+.cuoi{
+  display: flex;
+}
+
+.phancuoi{
+  display: flex;
+  justify-content: space-between;
+}

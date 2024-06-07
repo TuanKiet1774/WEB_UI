@@ -1,0 +1,13 @@
+.header-menu{
+  height: 100px;
+
+}
+
+main{
+  margin-top: -100px;
+}
+
+.img-carousel{
+  height: 100vh;
+  object-fit: cover;
+}

@@ -1,0 +1,76 @@
+.Demo{
+    color: antiquewhite;
+    background-color: brown;
+    text-align: center;
+    margin: 45px;
+    padding: 30px;
+    border: 15px groove rgb(136, 204, 164);
+    border-radius: 50px;
+}
+#Demo{
+    color: antiquewhite;
+    background-color: rgb(75, 165, 42);
+    text-align: right;
+}
+.Submit
+{
+    background-color: green;
+    text-align: center;    
+    border: solid 3px;
+}
+.khung{
+    background-color: antiquewhite;
+    border: 5px solid rgb(0, 0, 0);
+    width: fit-content;
+}
+/* Bài tâp 2 */
+.khungmp3{
+    text-align: center;
+    background-color: antiquewhite;
+    width: 300px;
+    border: 5px solid black;
+}
+.anhmp3{
+    width: 200px;
+    border-radius: 10px;
+}
+.khungmp4{
+    text-align: center;
+    background-color: antiquewhite;
+    width: 350px;
+    border: 5px solid black;
+    color: black;
+    border-radius: 20px;
+}
+.video{
+    width: 300px;
+    border-radius: 6px ;
+}
+/* Demo_3 */
+
+header{
+   display: flex;
+   background-color: antiquewhite;
+   padding: 20px;
+   /* justify-content: space-between; */
+}
+.header-menu{
+    display: flex;
+}
+header h3{
+    margin: 0;
+}
+header ul{
+    margin-left: auto;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-top: 0;
+    list-style: none;
+}
+header ul li{
+    margin: 0 30px;
+}
+header ul li a{
+    text-decoration: none;
+    color: black;
+}

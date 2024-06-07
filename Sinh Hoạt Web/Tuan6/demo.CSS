@@ -1,0 +1,25 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.flex{
+  position: relative;
+  top: 0;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+}
+.head{
+  background-color:red;
+  height: 480px;
+  border: 10px solid black;
+  width: 100%;
+}
+.content{
+  position: absolute;
+  background-color: yellow;
+  height: 200px;
+  width: 200px;
+  clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+}

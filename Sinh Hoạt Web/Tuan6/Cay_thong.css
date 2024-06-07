@@ -1,0 +1,68 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.cha{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nen{
+  background-color: antiquewhite;
+  width: 100%;
+  height: 600px;
+  border: 10px solid brown;
+}
+/* Chữ: "Merry Christmas" */
+.font-effect-outline{
+  position: absolute;
+  top: 40px;
+  font-size: 50px;
+  font-family: copperplate;
+}
+/* cây thông */
+.star{
+  position: absolute;
+  top: 110px;
+  background-color: rgb(226, 226, 23);
+  height: 50px;
+  width: 50px;
+  clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+}
+.la3{
+  position: absolute;
+  bottom: 340px;
+  background-color: darkgreen;
+  height: 100px;
+  width: 100px;
+  clip-path: polygon(0 0, 0% 100%, 100% 100%);  
+  transform: rotate(135deg);
+}
+.la2{
+  position: absolute;
+  bottom: 250px;
+  background-color: darkgreen;
+  height: 150px;
+  width: 150px;
+  clip-path: polygon(0 0, 0% 100%, 100% 100%);  
+  transform: rotate(135deg);
+}
+.la1{
+  position: absolute;
+  bottom: 150px;
+  background-color: darkgreen;
+  height: 200px;
+  width: 200px;
+  clip-path: polygon(0 0, 0% 100%, 100% 100%);  
+  transform: rotate(135deg);
+}
+.cay{
+  position: absolute;
+  bottom: 160px;
+  background-color: brown;
+  height: 100px;
+  width: 100px;
+  clip-path: inset(0 24% 0 24%);
+}

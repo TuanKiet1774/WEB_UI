@@ -1,0 +1,39 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.cha{
+  border: 1px solid red;
+  width: 90%;
+  margin: auto;
+}
+.khung{
+  padding: 10px;
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.sp1{
+  border-radius: 10px;
+  position: relative;
+  padding: 10px;
+  margin: 10px;
+  width: 30%;
+  border: 1px solid black;
+}
+.GT{
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: yellow;
+  width: 30px;
+}
+.MT{
+  padding-left: 30px;
+}
+img{
+  width: 100%;
+}
