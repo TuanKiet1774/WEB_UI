@@ -1,0 +1,213 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Cuối Kỳ</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+
+    <!-- link css -->
+    <link rel="stylesheet" href="./CuoiKy.css">
+    <!-- link js -->
+     <script src="./CuoiKy.js"></script>
+    <!-- Link icon -->
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.2.0/css/all.css" />
+    <!-- Link font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+    <header class="d-flex justify-content-around py-5">
+      <img src="./images/logo.png" width="150px" height="90px" alt="" class="d-md-none d-sm-none d-lg-block">
+      <div>
+        <nav class="navbar navbar-expand-lg">
+          <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <form class="ip-search d-flex ms-auto me-md-auto mt-4" role="search">
+                <input class="form-control me-2 rounded-4" type="search" placeholder="Search" aria-label="Search">
+                <i class="fa-solid fa-magnifying-glass"></i>
+              </form>
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item px-5">
+                  <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item px-5 dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Our menu
+                  </a>
+                  <ul class="dropdown-menu rounded-0">
+                    <li><a class="dropdown-item" href="#">Jade</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#">Astrial chocolate</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#">Rosemary</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item px-5">
+                  <a class="nav-link active" aria-current="page" href="#">Contact</a>
+                </li>
+                <a href="#" class="btn btn-login text-white rounded-5 mx-3 text-center fw-bold rounded-3" onclick="show_model()">Login</a>
+              </ul>
+            </div>
+          </div>
+        </nav>
+        <!-- Gạch chân -->
+        <div class="line d-md-none d-lg-block"></div>
+      </div>
+      <!-- Logo ảo ở chết độ medium -->
+      <img src="./images/logo.png" width="150px" height="90px" alt="" class="d-md-block d-sm-block d-lg-none">
+      <!-- Form đăng nhập -->
+      <div class="form-dang-nhap shadow-lg" id="form-dang-nhap">
+        <div class="text-end m-3">
+          <a href="#" class="btn btn-exit text-white text-center bg-danger fw-bold rounded-3" onclick="show_model()">X</a>
+        </div>
+        <form action="" class="my-4">
+          <h3 class="m-4">Đăng Nhập</h3>
+          <div class="username_btn">
+            <img src="./Anh/Username.png" alt="" class="anh_user">
+            <input type="text" id="user" placeholder="Username" onkeyup="checkuser()">
+          </div>
+          <div class="password_btn">
+            <img src="./Anh/pass.png" alt="" class="anh_pass">
+            <input type="password" id="pass" placeholder="Password" onkeyup="check()">
+            <i class="eye fa-regular fa-eye-slash" id="eye-on" onclick="show_pass()"></i>
+          </div>
+          <p id="message" class="text-danger"></p>
+          <div class="btn">
+            <button type="button" id="signin"><a href="#">Đăng Nhập</a></button>
+          </div>
+        </form>
+      </div>
+    </header>
+
+    <main class="container my-5">
+      <div class="row g-2">
+        <!-- Combination of -->
+        <div class="col-md-12 col-lg-6">
+          <h2 class="Combination-of text-danger fw-bold">Combination of</h2>
+          <h1 class="Chocolate fw-bold">Chocolate and <br> Fresh Strawberry</h1>
+          </h1>
+          <button class="btn btn-order text-white rounded-5 mx-3 my-3" type="submit">Order now</button>
+          <div class="Cac-loai d-flex justify-content-around d-md-none d-lg-block">
+            <div class="row g-2">
+              <div class="col-lg-6">
+                <div class="d-flex justify-content-around">
+                  <img src="./images/img_01.png" width="200px" alt="">
+                  <img src="./images/img_02.png" width="200px" alt="">
+                </div>
+              </div>
+              <img src="./images/img_03.png" class="anh-3 col-lg-6" alt="">
+            </div>
+          </div>
+        </div>
+        <!-- Slide ảnh -->
+        <div class="col-md-12 col-lg-6 z-0">
+          <div id="carouselExampleIndicators" class="carousel slide">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="./images/Slide_01.png" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="./images/Slide_02.png" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="./images/Slide_03.png" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+
+        <div class="Cac-loai d-flex justify-content-around d-md-block d-lg-none">
+          <div class="d-flex justify-content-around">
+            <img src="./images/img_01.png" width="250px" alt="">
+            <img src="./images/img_02.png" width="250px" alt="">
+          </div>
+          <div class="w-100 text-center col-md-12">
+            <img src="./images/img_03.png" width="300px" alt="">
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <div class="special container-fluid text-center py-3">
+      <h2 class="text-danger fw-bold"> - Speciacls - </h2>
+    </div>
+    
+    <!-- Sản phẩm -->
+    <div class="container my-5">
+      <div class="row g-3">
+        <div class="sanpham my-4 col-md-12 col-lg-4 m-auto text-center">
+          <div class="px-5">
+            <img src="./images/item_01.png" width="300px" alt="">
+          </div>
+          <h3>Summer Strawberry Chocolate<h3>
+          <h5>from: <span class="fs-2 text-danger">$49.99</span></h5>
+          <button class="btn btn-order text-white rounded-2 mx-3" type="submit">Order Now <i class="fa-solid fa-arrow-right"></i></button>
+        </div>
+        <div class="sanpham my-4 col-md-6 col-lg-4 m-auto text-center">
+          <div class="px-5">
+            <img src="./images/item_02.png" width="300px" alt="">
+          </div>
+          <h3>White Angel<h3>
+          <h5>from: <span class="fs-2 text-danger">$59.99</span></h5>
+          <button class="btn btn-order text-white rounded-2 mx-3" type="submit">Order Now <i class="fa-solid fa-arrow-right"></i></button>
+        </div>
+        <div class="sanpham my-4 col-md-6 col-lg-4 m-auto text-center">
+          <div class="px-5">
+            <img src="./images/item_03.png" width="300px" alt="">
+          </div>
+          <h3>Delighted Emerald<h3>
+          <h5>from: <span class="fs-2 text-danger">$79.99</span></h5>
+          <button class="btn btn-order text-white rounded-2 mx-3" type="submit">Order Now <i class="fa-solid fa-arrow-right"></i></button>
+        </div>
+      </div>
+    </div>
+
+    <div class="ft container-fluid text-center py-3">
+      <h2 class="text-white"> DESIGN BY: Tuấn Kiệt_64131060 </h2>
+    </div>
+
+
+    <!-- Bootstrap JavaScript Libraries -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+      integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
