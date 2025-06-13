@@ -24,3 +24,10 @@
 ### 4. 🎨 Hỗ trợ lấy tham số màu CSS
 - Trang Web giúp lấy tham số màu sắc
 - Link truy cập: [Image Color Picker](https://imagecolorpicker.com/vi)
+
+---
+### 5. 📝Project 1 tiết
+- Playing Piano: [Giao diện](https://tuankiet1774.github.io/Playing-Piano/)
+- Source code: [src](https://github.com/TuanKiet1774/Playing-Piano)
+
+  
