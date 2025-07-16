@@ -7,7 +7,7 @@
 ### 1. 🍀 Icon
 - Sử dụng thư viện icon của FontAwesome
 - Link truy cập: [FontAwesome](https://fontawesome.com/icons)  
-- Cách dùng: Thêm đoạn sau vào phần `<head>` của file HTML (bỏ trong dấu `<...>` khi dán vào file):  
+- Cách dùng: Thêm đoạn sau vào phần `<head>` của file HTML:  
   `<link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.2.0/css/all.css" />`
 
 ---
